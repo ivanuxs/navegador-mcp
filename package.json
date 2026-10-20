@@ -1,0 +1,9 @@
+{
+  "name": "mcp-navegador",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Dependencia de Node del MCP de navegador: Playwright MCP con versión fija.",
+  "dependencies": {
+    "@playwright/mcp": "0.0.83"
+  }
+}

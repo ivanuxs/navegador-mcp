@@ -1,0 +1,2 @@
+# Mantiene la carpeta logs/ en el repositorio.
+# Los registros (*.txt) están ignorados por .gitignore.

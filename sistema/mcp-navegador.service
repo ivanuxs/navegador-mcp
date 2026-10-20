@@ -1,0 +1,22 @@
+[Unit]
+Description=MCP de navegador (Playwright MCP + proxy con token)
+Documentation=file:///home/ivan/Nextcloud/Proyectos/mcp/navegador/LEEME.md
+# Si arrancar.sh sale con error (falta el .env, puerto ocupado…), no se reintenta
+# sin fin: 5 intentos en un minuto y se queda parado para poder mirarlo.
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ivan/Nextcloud/Proyectos/mcp/navegador
+Environment=HOME=/home/ivan
+# El gestor de usuario arranca con un PATH mínimo; npx y node viven en /usr/bin.
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+ExecStart=/home/ivan/Nextcloud/Proyectos/mcp/navegador/arrancar.sh
+# arrancar.sh ya mata al MCP en su trap; esto espera a que termine.
+TimeoutStopSec=20
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,3 @@
+# Dependencias de Python del proxy con token.
+# Instalar en el entorno: .venv/bin/pip install -r requirements.txt
+aiohttp==3.14.5

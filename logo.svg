@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Navegador MCP">
+  <title>Navegador MCP</title>
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#172133"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#fondo)"/>
+  <rect x="16" y="16" width="480" height="480" rx="104" fill="none" stroke="#38bdf8" stroke-width="6"/>
+  <rect x="104" y="132" width="304" height="248" rx="26" fill="none" stroke="#38bdf8" stroke-width="12"/>
+  <line x1="110" y1="186" x2="402" y2="186" stroke="#38bdf8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="150" cy="159" r="9" fill="#a78bfa"/>
+  <circle cx="186" cy="159" r="9" fill="#38bdf8"/>
+  <circle cx="222" cy="159" r="9" fill="#38bdf8"/>
+  <line x1="150" y1="246" x2="330" y2="246" stroke="#a78bfa" stroke-width="14" stroke-linecap="round"/>
+  <line x1="150" y1="288" x2="292" y2="288" stroke="#a78bfa" stroke-width="14" stroke-linecap="round"/>
+  <polygon points="300,300 300,366 320,348 334,376 350,368 336,340 360,336" fill="#38bdf8"/>
+</svg>

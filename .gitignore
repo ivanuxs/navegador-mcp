@@ -1,0 +1,20 @@
+# Logs de este proyecto y copias locales
+logs/*.txt
+logs/historial_logs/
+*.log
+
+# Entorno y secretos
+.env
+.venv/
+node_modules/
+
+# Artefactos de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Artefactos de Playwright
+perfiles/
+descargas/
+capturas/
+.playwright-mcp/
